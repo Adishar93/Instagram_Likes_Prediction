@@ -54,3 +54,4 @@ Four different models were tested:
 - **Best Performing Model:** KNN outperformed the other models in terms of test loss (MSE).
 - **Importance of Standardization:** Standardizing the target feature (`likes`) significantly enhanced the performance of models such as CNN and SVM regression.
 - **Outlier Removal:** The removal of outliers in `no_of_comments` positively impacted model accuracy, particularly for linear regression.
+- **Adding Image Input:** Including image inputs for the CNN model did not lead to the best performance, as it was still outperformed by simpler models like KNN in terms of test loss (MSE).
